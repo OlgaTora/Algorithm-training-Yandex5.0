@@ -1,5 +1,5 @@
 words1, words2 = [], []
-with open('34(16)', 'r') as file:
+with open('input.txt', 'r') as file:
     w, n, m = map(int, file.readline().split())
     f = map(int, file.readline().split())
     for line in f:
@@ -53,8 +53,8 @@ def rows_counter(part: int, words: list) -> int:
         count_rows += 1
     return count_rows
 
-
 print(binary_search())
+
 # w = 10 #res 4
 # words1 = [1, 1, 2, 1, 2]
 # words2 = [7, 7, 1, 5, 5]
@@ -67,3 +67,7 @@ print(binary_search())
 # w, n, m = 10, 10, 1
 # words1 = [1, 1, 1, 1, 1, 1,1,1,1,1]
 # words2 = [438]
+# 04-828 02-4
+# w, n, m  = 10
+# words1 = [2, 2, 4, 5, 7]
+# words2 = [1, 1, 2, 1, 1] #res 4
